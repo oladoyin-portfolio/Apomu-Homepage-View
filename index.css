@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Teko", sans-serif;
+}
+
+.hero {
+    background-image: url("images/Apomu.jpg");
+    background-size: 100vw 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#welcome-style {
+    margin-top: 200px;
+    margin-bottom: 0;
+    font-size: 60px;
+}
+
+#slogan-style {
+    margin-top: 20px;
+}
+h1, h3 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background: #F9A03F;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.all-img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.attraction {
+    background: #F7D488;
+    padding: 1px;
+    margin-bottom: 40px;
+}
+.sub-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.guide {
+    display: flex;
+    width: 300px;
+    margin: auto;
+    border-bottom: 6px solid #5A2A27; 
+    border-radius: 20px;
+    padding: 20px;
+    background: #F7D488;
+}
+
+img {
+    width: 90px;
+    border-radius: 20px;
+}
+
+.tourist {
+    margin-top: 15px;
+}
